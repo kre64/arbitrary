@@ -1,0 +1,29 @@
+/.bundle/
+/vendor/bundle/
+/.ruby-version
+/.ruby-gemset
+
+# Ruby build artifacts
+*.gem
+*.rbc
+*.so
+*.bundle
+*.a
+*.o
+*.class
+*.out
+
+# Ruby temp/log files
+/.byebug_history
+/.irb-history
+/.pry_history
+/tmp/
+/log/
+
+# Bundler
+Gemfile.lock
+
+# Environment files
+.env
+.env.*
+!.env.example
