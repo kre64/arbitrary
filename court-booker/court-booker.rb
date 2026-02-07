@@ -18,7 +18,6 @@ CLICK_TIME = ARGV[0]
 CLICK_X = ENV["CLICK_X"] # X coordinate (optional)
 CLICK_Y = ENV["CLICK_Y"] # Y coordinate (optional)
 CLICK_OFFSET_NS = (ENV["CLICK_OFFSET_NS"] || "0").to_i
-CLICK_URL = ENV["CLICK_URL"] || "https://usta.courtreserve.com/Online/Reservations/Bookings/5881?sId=294"
 
 unless CLICK_TIME
   warn "Usage: bundle exec ruby court-booker/court-booker.rb 'YYYY-MM-DD HH:MM:SS'"
