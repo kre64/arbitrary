@@ -27,3 +27,4 @@ Gemfile.lock
 .env
 .env.*
 !.env.example
+.vscode
